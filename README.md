@@ -1,23 +1,19 @@
 # myVIMsetup
-## Firstly, Setup Vundle
+## Setup Plugins
+1. Firstly, Setup Vundle
 ```bash
 $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
-## Secondly, fetch the file to ~/, and rename it to .vimrc
+2. Secondly, fetch the file to ~/, and rename it to .vimrc
 
-## Activate vundle and install the plugins:
+3. Activate vundle and install the plugins:
 
 Open vim, and type in 
 ```
 :PluginInstall
 ```
 
-
-# For the cheat sheet:
-
-https://vim.rtorr.com/lang/zh_cn/
-
-# Ctags
+## Setup Ctags
 1. Execute in the current project folder:
 
 ```bash
@@ -35,3 +31,6 @@ $ ctags -R --c++-kinds=+p --fields=+iaS --extra=+q /usr/include
 set tags=/tag/directory/1,tag/directory/2
 ```
 
+## For the cheat sheet:
+
+https://vim.rtorr.com/lang/zh_cn/
